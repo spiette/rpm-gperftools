@@ -40,7 +40,7 @@ files for developing applications that use the %name package.
 
 
 %prep
-%setup
+%setup -q
 
 %build
 CXXFLAGS=`echo -DTCMALLOC_LARGE_PAGES| sed -e 's/-Wp,-D_FORTIFY_SOURCE=2//g'`
