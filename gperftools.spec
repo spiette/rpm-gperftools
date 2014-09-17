@@ -8,7 +8,7 @@
 # wget https://raw.github.com/nmilford/rpm-gperftools/master/gperftools.spec -O ~/rpmbuild/SPECS/gperftools.spec
 # rpmbuild -bb ~/rpmbuild/SPECS/gperftools.spec
 
-%define	prefix /usr
+%define   prefix /usr
 
 Name:     gperftools
 Summary:  Performance tools for C++
