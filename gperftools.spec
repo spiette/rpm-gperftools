@@ -12,8 +12,8 @@
 
 Name:     gperftools
 Summary:  Performance tools for C++
-Version:  2.0
-Release:  1
+Version:  2.2.1
+Release:  1%{?dist}
 Group:    Development/Libraries
 URL:      http://code.google.com/p/gperftools/
 License:  BSD
