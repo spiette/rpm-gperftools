@@ -18,7 +18,7 @@ Group:    Development/Libraries
 URL:      http://code.google.com/p/gperftools/
 License:  BSD
 Vendor:   Google Inc. and others
-Source:   https://gperftools.googlecode.com/files/%{name}-%{version}.zip
+Source:   https://gperftools.googlecode.com/files/%{name}-%{version}.tar.gz
 Buildroot: %{_tmppath}/%{name}-root
 BuildRequires: libunwind-devel
 Obsoletes: google-perftools
